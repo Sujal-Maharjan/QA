@@ -1,0 +1,20 @@
+{
+
+    "contact" :{
+        "firstName": "Suzal",
+        "lastName": "Maharjan",
+        "dateOfBirth": "2004-12-24",
+        "email": "maharjansuzal@gmai.com",
+        "phone": "9090909090",
+        "address": "Manamaiju",
+        "city": "City1",
+        "state": "State1",
+        "postal": "44600",
+        "counrty": "Nepal"
+    }, 
+
+    "contactEdit":{
+        "firstName": "Sujal",
+        "lastName": "Sujal"
+    }
+}
