@@ -11,14 +11,14 @@ test('login', async ({ page }) => {
   await page.waitForTimeout(20000)         
 });
 
-// test('invalid login',async ({ page }) => {
-//   await page.goto('https://www.pinterest.com/login')
-//   await page.getByPlaceholder("Email or phone number").fill("9886158433");
-//   await page.getByPlaceholder("Password").fill("suzalhello");
-//   await page.getByRole("button", {name: "Log in"}).click()
-//   await page.waitForTimeout(20000)
-//   return 
-// });
+test('invalid login',async ({ page }) => {
+  await page.goto('https://www.pinterest.com/login')
+  await page.getByPlaceholder("Email or phone number").fill("9886158433");
+  await page.getByPlaceholder("Password").fill("suzalhello");
+  await page.getByRole("button", {name: "Log in"}).click()
+  await page.waitForTimeout(20000)
+  return 
+});
 
 // test('invalid email',async ({ page }) => {
 //   await page.goto('https://www.pinterest.com/login')
