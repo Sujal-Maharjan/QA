@@ -20,13 +20,13 @@ test('invalid login',async ({ page }) => {
   return 
 });
 
-// test('invalid email',async ({ page }) => {
-//   await page.goto('https://www.pinterest.com/login')
-//   await page.getByPlaceholder("Email or phone number").fill("9886158433@xyz.com");
-//   await page.getByPlaceholder("Password").fill("suzal");
-//   await page.getByRole("button", {name: "Log in"}).click()
-//   await page.waitForTimeout(20000)
-// });
+test('invalid email',async ({ page }) => {
+  await page.goto('https://www.pinterest.com/login')
+  await page.getByPlaceholder("Email or phone number").fill("9886158433@xyz.com");
+  await page.getByPlaceholder("Password").fill("suzal");
+  await page.getByRole("button", {name: "Log in"}).click()
+  await page.waitForTimeout(20000)
+});
 
 // test('invalid password',async ({ page }) => {
 //   await page.goto('https://www.pinterest.com/login')
